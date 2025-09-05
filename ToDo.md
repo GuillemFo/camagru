@@ -1,0 +1,3 @@
+- Install vite
+- Prepare dockers for front
+- Start building DOM
