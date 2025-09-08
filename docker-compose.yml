@@ -1,0 +1,27 @@
+networks:
+  camagru:
+    name: camagru
+    driver: bridge
+
+services:
+  front:
+     container_name: front
+     restart: no
+     build:
+      context: .
+      dockerfile: front/Dockerfile
+     networks:
+      - camagru
+     ports:
+       - "3000:3000"
+     volumes:
+      - vol_front:/app/front
+
+
+volumes:
+  vol_front:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: "./front"
