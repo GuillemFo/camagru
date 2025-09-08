@@ -1,5 +1,5 @@
 - Install vite ->Done
-- Prepare dockers for front
+- Prepare dockers for front ->Done
 - Start building DOM
 
 
