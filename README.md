@@ -26,6 +26,7 @@ Camagru allows users to:
 | **Server** | Any language (limited to PHP standard library equivalents) |
 | **Client** | HTML, CSS, JavaScript (browser native APIs only) |
 | **Frameworks** | CSS frameworks allowed (if no JavaScript), Server frameworks limited to PHP standard library equivalents |  
+   
 I use `PHP` , `Typescript` and `Tailwind css`
 
 ### Mandatory Features
